@@ -49,7 +49,12 @@ module.exports = {
     "@typescript-eslint/no-parameter-properties": 2,
     "@typescript-eslint/no-triple-slash-reference": 2,
     "@typescript-eslint/no-type-alias": 0,
-    "@typescript-eslint/no-unused-vars": 2,
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
     "@typescript-eslint/no-use-before-define": 2,
     "@typescript-eslint/no-var-requires": 2,
     "@typescript-eslint/prefer-namespace-keyword": 2,
