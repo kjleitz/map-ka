@@ -10,7 +10,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@types/underscore": "^1.8.18",
     "core-js": "^2.6.5",
+    "underscore": "^1.9.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
